@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+           <li class="home">Home</li>
+           <li class="about">About</li>
+            
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best Of This Month</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/espresso.png" >
+                    <span class="songName">Espresso</span>
+                    <span class="songlistplay"><span class="timestamp">03:50 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/chooLo.png" >
+                    <span class="songName">Choo Lo</span>
+                    <span class="songlistplay"><span class="timestamp">02:33 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/husn.png" >
+                    <span class="songName">Husn</span>
+                    <span class="songlistplay"><span class="timestamp">04:33 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/night.png" >
+                    <span class="songName">The Night We Met</span>
+                    <span class="songlistplay"><span class="timestamp">04:27 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/photograph.png" >
+                    <span class="songName">Photograph</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/please (1).png" >
+                    <span class="songName">Please Please Please</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/sajni.jpg" >
+                    <span class="songName">O Sajni Re</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" >
+                    <span class="songName">Bhula Dena</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" >
+                    <span class="songName">Piya Aaye Na</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" >
+                    <span class="songName">Sunn Raha Hai Na</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <div class="bottom">
+        <input type="range"name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Espresso</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/4d7231f273.js" crossorigin="anonymous"></script>
+    <script src="script1.js"></script>
+</body>
+</html>
